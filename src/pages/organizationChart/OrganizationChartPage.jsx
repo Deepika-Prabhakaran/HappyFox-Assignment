@@ -9,19 +9,19 @@ import { Toaster, toast } from 'react-hot-toast';
 
 const API = {
   employees: [
-    { id: 1, name: "Mark Hill", designation: "CEO", team: "Executive", manager: null, image: "https://png.pngtree.com/png-vector/20241030/ourlarge/pngtree-professional-businessman-in-suit-png-image_14183325.png" },
-    { id: 2, name: "Joe Linux", designation: "CTO", team: "Engineering", manager: 1, image: "https://static.vecteezy.com/system/resources/thumbnails/053/630/733/small/a-man-in-a-suit-and-tie-standing-with-his-arms-crossed-photo.jpeg" },
-    { id: 3, name: "John Green", designation: "VP Engineering", team: "Engineering", manager: 2, image: "https://t3.ftcdn.net/jpg/01/97/11/70/360_F_197117055_WC3XWtirsfhXnefmX2jka3C254XPGGic.jpg" },
-    { id: 4, name: "Sarah Chen", designation: "Senior Developer", team: "Engineering", manager: 3, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-ZHqWA3ajb0g2TmGMYzSoRpiR5HqjelAKfw&s" },
-    { id: 5, name: "Ron Blomquist", designation: "Developer", team: "Engineering", manager: 2, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0sguzKol3Gg6f6LuLY3YSq5hCgwF8dXXVFA&s" },
-    { id: 6, name: "Alice Johnson", designation: "VP Sales", team: "Sales", manager: 1, image: "https://static.vecteezy.com/system/resources/thumbnails/033/129/417/small/a-business-man-stands-against-white-background-with-his-arms-crossed-ai-generative-photo.jpg" },
-    { id: 7, name: "Bob Wilson", designation: "Sales Manager", team: "Sales", manager: 6, image: "https://t4.ftcdn.net/jpg/02/14/74/61/360_F_214746128_31JkeaP6rU0NzzzdFC4khGkmqc8noe6h.jpg" },
-    { id: 8, name: "Emma Davis", designation: "Sales Rep", team: "Sales", manager: 7, image: "https://static.vecteezy.com/system/resources/thumbnails/038/962/461/small/ai-generated-caucasian-successful-confident-young-businesswoman-ceo-boss-bank-employee-worker-manager-with-arms-crossed-in-formal-wear-isolated-in-white-background-photo.jpg" },
-    { id: 9, name: "David Brown", designation: "VP Marketing", team: "Marketing", manager: 1, image: "https://t3.ftcdn.net/jpg/02/42/00/04/360_F_242000451_i5W8qBEWBw5hthTWgPTogYYl8qxIX4f5.jpg" },
-    { id: 10, name: "Lisa White", designation: "Marketing Manager", team: "Marketing", manager: 9, image: "https://images.forwardcdn.com/image/970x/center/images/cropped/istock-627909282-1514234385.jpg" },
-    { id: 11, name: "Mike Taylor", designation: "Designer", team: "Marketing", manager: 10, image: "https://static9.depositphotos.com/1005893/1150/i/450/depositphotos_11501533-stock-photo-indian-businessman.jpg" },
-    { id: 12, name: "Ana Rodriguez", designation: "HR Manager", team: "HR", manager: 1, image: "https://thumbs.dreamstime.com/b/beautiful-african-american-business-woman-portrait-arms-folded-confident-happy-ceo-cheerful-smiling-businesswoman-corporate-162367854.jpg" },
-  ],
+  { id: 1, name: "Rajesh Iyer", designation: "CEO", team: "Executive", manager: null, image: "https://png.pngtree.com/png-vector/20241030/ourlarge/pngtree-professional-businessman-in-suit-png-image_14183325.png" },
+  { id: 2, name: "Amit Verma", designation: "CTO", team: "Engineering", manager: 1, image: "https://static.vecteezy.com/system/resources/thumbnails/053/630/733/small/a-man-in-a-suit-and-tie-standing-with-his-arms-crossed-photo.jpeg" },
+  { id: 3, name: "Suresh Reddy", designation: "VP Engineering", team: "Engineering", manager: 2, image: "https://t3.ftcdn.net/jpg/01/97/11/70/360_F_197117055_WC3XWtirsfhXnefmX2jka3C254XPGGic.jpg" },
+  { id: 4, name: "Neha Sharma", designation: "Senior Developer", team: "Engineering", manager: 3, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-ZHqWA3ajb0g2TmGMYzSoRpiR5HqjelAKfw&s" },
+  { id: 5, name: "Rahul Mehra", designation: "Developer", team: "Engineering", manager: 2, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0sguzKol3Gg6f6LuLY3YSq5hCgwF8dXXVFA&s" },
+  { id: 6, name: "Subramanian", designation: "VP Sales", team: "Sales", manager: 1, image: "https://static.vecteezy.com/system/resources/thumbnails/033/129/417/small/a-business-man-stands-against-white-background-with-his-arms-crossed-ai-generative-photo.jpg" },
+  { id: 7, name: "Arun Kumar", designation: "Sales Manager", team: "Sales", manager: 6, image: "https://t4.ftcdn.net/jpg/02/14/74/61/360_F_214746128_31JkeaP6rU0NzzzdFC4khGkmqc8noe6h.jpg" },
+  { id: 8, name: "Ananya Nair", designation: "Sales Rep", team: "Sales", manager: 7, image: "https://static.vecteezy.com/system/resources/thumbnails/038/962/461/small/ai-generated-caucasian-successful-confident-young-businesswoman-ceo-boss-bank-employee-worker-manager-with-arms-crossed-in-formal-wear-isolated-in-white-background-photo.jpg" },
+  { id: 9, name: "Karan Malhotra", designation: "VP Marketing", team: "Marketing", manager: 1, image: "https://t3.ftcdn.net/jpg/02/42/00/04/360_F_242000451_i5W8qBEWBw5hthTWgPTogYYl8qxIX4f5.jpg" },
+  { id: 10, name: "Meera Pillai", designation: "Marketing Manager", team: "Marketing", manager: 9, image: "https://images.forwardcdn.com/image/970x/center/images/cropped/istock-627909282-1514234385.jpg" },
+  { id: 11, name: "Nikhil Kapoor", designation: "Designer", team: "Marketing", manager: 10, image: "https://static9.depositphotos.com/1005893/1150/i/450/depositphotos_11501533-stock-photo-indian-businessman.jpg" },
+  { id: 12, name: "Divya Rao", designation: "HR Manager", team: "HR", manager: 1, image: "https://thumbs.dreamstime.com/b/beautiful-african-american-business-woman-portrait-arms-folded-confident-happy-ceo-cheerful-smiling-businesswoman-corporate-162367854.jpg" },
+],
 
   getEmployees: () => Promise.resolve([...API.employees]),
   updateEmployee: (id, updates) => {

@@ -1,7 +1,7 @@
-# Happy Organize  – HappyFox Frontend Assignment
+# Happy Organize  - HappyFox Frontend Assignment
 
 **Happy Organize** is a modern, interactive tool for visualizing and managing employee hierarchies.  
-It provides a real-time, drag-and-drop interface to restructure reporting lines, filter by team, and simulate organizational changes — all with a clean, responsive UI and mock backend integration.
+It provides a real-time, drag-and-drop interface to restructure reporting lines, filter by team, and simulate organizational changes, all with a clean, responsive UI and mock backend integration.
 
 🎯 Built as a frontend assignment for **HappyFox**.
 
@@ -9,24 +9,21 @@ It provides a real-time, drag-and-drop interface to restructure reporting lines,
 
 ## 🔗 Hosted Link
 
-**Live Demo**: [happy-organize.vercel.app](https://happy-organize.vercel.app/)  
+**Live Demo**: [happy-fox-assignment.vercel.app](https://happy-fox-assignment.vercel.app/)  
+**Page Assigned**: [happy-fox-assignment.vercel.app/chart](https://happy-fox-assignment.vercel.app/chart)  
 (Recommended: Desktop View for full chart experience)
 
 ---
 
 ## 📸 Screenshots
 
-### ✅ Home Page – Project Overview & Features
+### ✅ Home Page - Project Overview & Features
 
-![Homepage Screenshot](screenshots/homepage.png)
+![Homepage Screenshot](homepage.png)
 
-### 🧩 Org Chart Interaction
+### 🧩 Organization Chart Interaction
 
-![Org Chart Screenshot](screenshots/chart.png)
-
-### 🔄 Drag & Drop Manager Reassignment
-
-![Drag Drop Screenshot](screenshots/dragdrop.png)
+![Org Chart Screenshot](chart.png)
 
 ---
 
@@ -37,8 +34,6 @@ It provides a real-time, drag-and-drop interface to restructure reporting lines,
 - 📊 **Org Chart View** – Hierarchy chart rendered from manager relationships.
 - 🔄 **Drag & Drop Updates** – Reassign employees live using React DnD.
 - 🚫 **Validation Logic** – Prevents circular hierarchies, CEO misplacement, and duplicate updates.
-- 🧪 **Unit Tests** – Critical test cases implemented using React Testing Library and Jest.
-- ⚡ **Zero Backend Setup** – MirageJS simulates a real backend.
 
 ---
 
@@ -48,14 +43,31 @@ It provides a real-time, drag-and-drop interface to restructure reporting lines,
 |------------------|--------------------------------|
 | Frontend         | React.js                       |
 | State/Events     | React Hooks                    |
-| Drag & Drop      | React DnD                      |
-| Mock Backend     | MirageJS                       |
 | Chart Logic      | Custom Tree Renderer using managerId |
 | Styling          | Vanilla CSS                    |
-| Testing          | React Testing Library, Jest    |
-| Deployment       | Vercel                         |
 
 ---
+---
 
-## 📁 Folder Structure
+## ▶️ Running Instructions
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/happy-organize.git
+   cd happy-organize
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the Development Server**
+   ```bash
+   npm start
+   ```
+
+   The app will be available at `http://localhost:3000` or `http://localhost:5173`
+
+---
 
