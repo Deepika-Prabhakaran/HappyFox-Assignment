@@ -7,7 +7,7 @@ import ZoomOutIcon from '@mui/icons-material/ZoomOut';
 import { getTeamColor } from '../../utils/teamColors';
 import { Toaster, toast } from 'react-hot-toast';
 
-onst API = {
+const API = {
   employees: [
     { id: 1, name: "Mark Hill", designation: "CEO", team: "Executive", manager: null, image: "https://png.pngtree.com/png-vector/20241030/ourlarge/pngtree-professional-businessman-in-suit-png-image_14183325.png" },
     { id: 2, name: "Joe Linux", designation: "CTO", team: "Engineering", manager: 1, image: "https://static.vecteezy.com/system/resources/thumbnails/053/630/733/small/a-man-in-a-suit-and-tie-standing-with-his-arms-crossed-photo.jpeg" },
