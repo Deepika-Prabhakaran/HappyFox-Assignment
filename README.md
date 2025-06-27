@@ -10,6 +10,7 @@ It provides a real-time, drag-and-drop interface to restructure reporting lines,
 ## 🔗 Hosted Link
 
 **Live Demo**: [happy-organize.vercel.app](https://happy-organize.vercel.app/)  
+**Page Assigned**: [happy-organize.vercel.app/chart](https://happy-organize.vercel.app/chart)  
 (Recommended: Desktop View for full chart experience)
 
 ---
