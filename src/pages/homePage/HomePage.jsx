@@ -3,7 +3,6 @@ import './HomePage.css';
 import { useNavigate } from 'react-router-dom';
 import { FaListAlt, FaSearch, FaSitemap, FaExchangeAlt, FaUserShield, FaSyncAlt, FaBrain, FaFilter, FaCheckCircle, FaBan, FaLayerGroup, FaReact } from 'react-icons/fa';
 import { SiCss3, SiReactrouter, SiMui, SiReact } from 'react-icons/si';
-import { BsKanbanFill } from 'react-icons/bs';
 import { LucideRocket } from 'lucide-react';
 
 const HomePage = () => {

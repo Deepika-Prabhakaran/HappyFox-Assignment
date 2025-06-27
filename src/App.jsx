@@ -9,12 +9,11 @@ import Footer from './components/footer/Footer';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename='/'>
         <Header />
         <Routes>
-          <Route path="/home" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/chart" element={<OrganizationChartPage />} />
-          <Route path="/" element={<Navigate to="/home" replace />} />
         </Routes>
         <Footer />
       </Router>
