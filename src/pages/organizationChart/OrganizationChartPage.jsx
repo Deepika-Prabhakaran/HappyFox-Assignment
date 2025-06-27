@@ -199,14 +199,14 @@ const OrganizationChartPage = () => {
       toast.error('Cannot assign employee as their own manager');
       return;
     }
-    if (wouldCreateCircularReference(employeeId, newManagerId)) {
+    if (canCreateCircularReference(employeeId, newManagerId)) {
       toast.error('Cannot create circular reporting structure');
       return;
     }
     await handleUpdateEmployee(employeeId, { manager: newManagerId }, fromSidebar);
   };
 
-  const wouldCreateCircularReference = (employeeId, newManagerId) => {
+  const canCreateCircularReference = (employeeId, newManagerId) => {
     let currentManagerId = newManagerId;
     while (currentManagerId !== null) {
       if (currentManagerId === employeeId) {
