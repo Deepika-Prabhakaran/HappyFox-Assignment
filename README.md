@@ -34,8 +34,6 @@ It provides a real-time, drag-and-drop interface to restructure reporting lines,
 - 📊 **Org Chart View** – Hierarchy chart rendered from manager relationships.
 - 🔄 **Drag & Drop Updates** – Reassign employees live using React DnD.
 - 🚫 **Validation Logic** – Prevents circular hierarchies, CEO misplacement, and duplicate updates.
-- 🧪 **Unit Tests** – Critical test cases implemented using React Testing Library and Jest.
-- ⚡ **Zero Backend Setup** – MirageJS simulates a real backend.
 
 ---
 
