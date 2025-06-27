@@ -24,10 +24,6 @@ It provides a real-time, drag-and-drop interface to restructure reporting lines,
 
 ![Org Chart Screenshot](chart.png)
 
-### 🔄 Drag & Drop Manager Reassignment
-
-![Drag Drop Screenshot](dragdrop.png)
-
 ---
 
 ## ⚙️ Features
