@@ -48,12 +48,8 @@ It provides a real-time, drag-and-drop interface to restructure reporting lines,
 |------------------|--------------------------------|
 | Frontend         | React.js                       |
 | State/Events     | React Hooks                    |
-| Drag & Drop      | React DnD                      |
-| Mock Backend     | MirageJS                       |
 | Chart Logic      | Custom Tree Renderer using managerId |
 | Styling          | Vanilla CSS                    |
-| Testing          | React Testing Library, Jest    |
-| Deployment       | Vercel                         |
 
 ---
 
