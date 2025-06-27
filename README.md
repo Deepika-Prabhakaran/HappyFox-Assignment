@@ -9,8 +9,8 @@ It provides a real-time, drag-and-drop interface to restructure reporting lines,
 
 ## 🔗 Hosted Link
 
-**Live Demo**: [happy-organize.vercel.app](https://happy-organize.vercel.app/)  
-**Page Assigned**: [happy-organize.vercel.app/chart](https://happy-organize.vercel.app/chart)  
+**Live Demo**: [happy-fox-assignment.vercel.app](https://happy-fox-assignment.vercel.app/)  
+**Page Assigned**: [happy-fox-assignment.vercel.app/chart](https://happy-fox-assignment.vercel.app/chart)  
 (Recommended: Desktop View for full chart experience)
 
 ---
