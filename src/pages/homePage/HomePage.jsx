@@ -21,7 +21,7 @@ const HomePage = () => {
           </button>
         </div>
         <div className="hero-right">
-          <img src="/Wavy_Bus-32_Single-03.jpg" alt="Org Chart Visual" />
+          <img src="/Hero Image.png" alt="Org Chart Visual" />
         </div>
       </section>
 
