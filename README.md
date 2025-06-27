@@ -16,11 +16,11 @@ It provides a real-time, drag-and-drop interface to restructure reporting lines,
 
 ## 📸 Screenshots
 
-### ✅ Home Page – Project Overview & Features
+### ✅ Home Page - Project Overview & Features
 
 ![Homepage Screenshot](homepage.png)
 
-### 🧩 Org Chart Interaction
+### 🧩 Organization Chart Interaction
 
 ![Org Chart Screenshot](chart.png)
 
@@ -48,6 +48,27 @@ It provides a real-time, drag-and-drop interface to restructure reporting lines,
 | Styling          | Vanilla CSS                    |
 
 ---
+---
 
-## 📁 Folder Structure
+## ▶️ Running Instructions
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/happy-organize.git
+   cd happy-organize
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the Development Server**
+   ```bash
+   npm start
+   ```
+
+   The app will be available at `http://localhost:3000` or `http://localhost:5173`
+
+---
 
