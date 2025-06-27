@@ -53,8 +53,8 @@ It provides a real-time, drag-and-drop interface to restructure reporting lines,
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/happy-organize.git
-   cd happy-organize
+   git clone https://github.com/Deepika-Prabhakaran/HappyFox-Assignment.git
+   cd HappyFox-Assignment
    ```
 
 2. **Install Dependencies**
@@ -64,7 +64,7 @@ It provides a real-time, drag-and-drop interface to restructure reporting lines,
 
 3. **Start the Development Server**
    ```bash
-   npm start
+   npm run dev
    ```
 
    The app will be available at `http://localhost:3000` or `http://localhost:5173`
