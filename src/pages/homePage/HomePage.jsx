@@ -161,7 +161,7 @@ const HomePage = () => {
           With intuitive features like filtering and drag-and-drop functionality, the Happy Organize Chart visualizer is crafted to simplify and enhance team management.
         </p>
         <p className="purpose-desc" style={{ marginBottom: 0 }}>
-           <span className="highlight">Happy and looking forward to contribute toHappyFox</span>.
+           <span className="highlight">Happy and looking forward to contribute to HappyFox</span>.
         </p>
       </section>
     </div>
