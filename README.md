@@ -1,7 +1,7 @@
-# Happy Organize  – HappyFox Frontend Assignment
+# Happy Organize  - HappyFox Frontend Assignment
 
 **Happy Organize** is a modern, interactive tool for visualizing and managing employee hierarchies.  
-It provides a real-time, drag-and-drop interface to restructure reporting lines, filter by team, and simulate organizational changes — all with a clean, responsive UI and mock backend integration.
+It provides a real-time, drag-and-drop interface to restructure reporting lines, filter by team, and simulate organizational changes, all with a clean, responsive UI and mock backend integration.
 
 🎯 Built as a frontend assignment for **HappyFox**.
 
@@ -18,15 +18,15 @@ It provides a real-time, drag-and-drop interface to restructure reporting lines,
 
 ### ✅ Home Page – Project Overview & Features
 
-![Homepage Screenshot](screenshots/homepage.png)
+![Homepage Screenshot](homepage.png)
 
 ### 🧩 Org Chart Interaction
 
-![Org Chart Screenshot](screenshots/chart.png)
+![Org Chart Screenshot](chart.png)
 
 ### 🔄 Drag & Drop Manager Reassignment
 
-![Drag Drop Screenshot](screenshots/dragdrop.png)
+![Drag Drop Screenshot](dragdrop.png)
 
 ---
 
